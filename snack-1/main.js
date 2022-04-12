@@ -11,9 +11,11 @@ const zucchine = [
 ]
 
 let pesoTot = 0
- zucchine.forEach( (zucchina) => {
-     console.log('Peso di una signola ', zucchina.peso)
-   return pesoTot += zucchina.peso 
+
+zucchine.forEach( (zucchina) => {
+     console.log('Peso di una signola zucchina ', zucchina.peso)
+
+     return pesoTot += zucchina.peso 
 })
 
 console.log('Peso totale di tutte le Zucchine',pesoTot)
