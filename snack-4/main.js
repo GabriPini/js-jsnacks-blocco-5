@@ -16,3 +16,23 @@ firstArray.forEach((item,index,array) =>{
 })
 
 console.log(newArray)
+
+
+/* function mergeArrays(array_1, array_2) {
+    const new_array = []
+    if(array_1.lenght === array_2.lenght){
+
+        array_1.forEach((element,index,) =>{
+
+            new_array.push(element)
+          
+            new_array.push(array_2[index])
+          })
+
+          return new_array
+    }
+
+}
+
+console.log(mergeArrays(['a','b','c',], [1, 2, 3]))
+ */
